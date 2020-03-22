@@ -1,0 +1,776 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+}
+img{
+    vertical-align: middle;
+}
+a{
+    cursor: pointer;
+}
+.main{
+
+    width: 90%;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    color: #666;
+}
+.nav{
+
+    width: 100%;
+
+    overflow: hidden;
+
+    padding: 10px 0;
+}
+.logo{
+
+    float: left;
+}
+.logo img{
+
+    height: 45px;
+}
+.navR{
+
+    float: right;
+
+    line-height: 45px;
+}
+.navs{
+
+    float: left;
+}
+.navs a{
+
+    color: #000;
+
+    margin: 0 10px;
+
+    text-decoration: none;
+}
+.searchs{
+
+    float: left;
+}
+.serzixun{
+
+    border-left: 1px solid #666;
+
+    padding-left: 10px;
+}
+.searchs a{
+
+}
+.searchs a img{
+
+    vertical-align: middle;
+}
+.banners{
+
+    overflow: hidden;
+}
+.banners img{
+    width: 100%;
+}
+.solgen{background: url("../images/index_13.jpg") no-repeat;background-size: 100% 100%;height: 400px;color: #fff;}
+.solgenChina{
+
+    text-align: center;
+
+    font-size: 38px;
+
+    line-height: 60px;
+
+    margin-top: 106px;
+}
+.solgenChina p{
+
+}
+.solgenEnglish{
+
+    text-align: center;
+
+    line-height: 30px;
+}
+.solgenEnglish p{
+
+}
+.servise{
+
+}
+.brandtxt{
+
+    text-align: center;
+
+    margin: 20px;
+
+    color: #D2073E;
+
+    font-size: 30px;
+}
+.brandtxt span{
+
+    font-size: 30px;
+
+    color: #D2073E;
+
+    font-weight: 700;
+}
+.brandtxt2{
+
+    text-align: center;
+
+    margin: 10px 0;
+
+    margin-bottom: 40px;
+}
+.biaoyu{
+
+    text-align: center;
+
+    font-size: 30px;
+}
+.biaoyu span{
+
+}
+.servieIntro{
+
+    width: 80%;
+
+    text-align: center;
+
+    line-height: 30px;
+
+    margin: 20px auto;
+}
+.servisenum{
+
+    overflow: hidden;
+}
+.servisenumItem{
+
+    float: left;
+
+    width: 33%;
+
+    text-align: center;
+}
+.srNum{
+
+    font-size: 45px;
+
+    font-weight: 700;
+}
+.servtxt{
+
+    font-size: 14px;
+
+    color: #666;
+}
+.qianming{
+
+    text-align: center;
+
+    margin: 30px 0;
+}
+.qianming img{
+
+}
+.knowmore {
+
+    text-align: center;
+}
+.knowmore a{
+
+    background: #BD2925;
+
+    color: #fff;
+
+    padding: 10px 20px;
+
+    display: inline-block;
+}
+.case{
+
+}
+.casetit {
+
+    text-align: center;
+
+    line-height: 30px;
+
+    margin: 20px auto;
+}
+.casetit p{
+
+}
+.caselist a{
+
+    display: inline-block;
+
+    width: 32%;
+
+    margin: 0.5%;
+}
+.caselist a img{
+
+    width: 100%;
+}
+.casemore {
+
+    text-align: center;
+
+    margin: 20px 0;
+}
+.casemore a{
+
+    border: 1px solid #eee;
+
+    padding: 10px 23px;
+
+    display: inline-block;
+}
+.searhbox{
+
+    overflow: hidden;
+
+    margin-top: 30px;
+
+    margin-bottom: 30px;
+}
+.searhboxL{
+
+    float: left;
+
+    color: #9A2E30;
+
+    font-weight: 700;
+
+    width: 49%;
+
+    border-right: 1px solid #eee;
+
+    line-height: 30px;
+}
+.searhboxL p{
+
+    /* background: #9A2E30; */
+
+    /* height: 10px; */
+}
+.searchline{
+
+    height: 10px;
+
+    background: #9A2E30;
+
+    width: 33px;
+}
+.searhboxR{
+
+    float: left;
+
+    width: 50%;
+}
+.searhboxR p{
+
+    text-align: right;
+
+    margin: 10px 0;
+
+    padding-right: 169px;
+}
+.yuyue {
+
+    text-align: right;
+
+    overflow: hidden;
+
+    height: 40px;
+
+    line-height: 40px;
+
+    float: right;
+}
+.yuyue input{
+
+    float: left;
+
+    height: 38px;
+
+    border: 1px solid #eee;
+
+    width: 203px;
+
+    padding-left: 10px;
+
+    border-radius: 4px 0 0 4px;
+}
+.yuyue a{
+
+    background: #E5E5E5;
+
+    float: left;
+
+    display: inline-block;
+
+    height: 40px;
+
+    padding: 0 10px;
+
+    border-radius: 0 4px 4px 0;
+}
+
+.catgory{
+
+}
+.catgoryTit{
+
+    color: #686868;
+
+    font-size: 20px;
+
+    margin: 10px 0;
+}
+.catgoryTit span{
+
+}
+.catgorytabbox{
+
+}
+.catgorytab {
+
+    font-size: 19px;
+
+    margin: 20px 0;
+}
+.catgorytab a{
+
+    color: #1D2F2E;
+
+    margin: 0 9px;
+}
+.catgorytab a.active{
+    border-left: 1px solid #66C5FF;
+    padding: 5px;
+    background: #eee;
+}
+.catgorytabcon{
+    margin-top: 20px;
+    display: none;
+}
+.catgorytabcon a{
+
+    float: left;
+
+    width: 33%;
+
+    border: 1px solid #eee;
+}
+.catgorytabcon a img{
+
+    width: 100%;
+
+    height: 218px;
+}
+.schoolIntro{
+
+    margin-top: 20px;
+}
+.schooltxt{
+
+    text-align: center;
+
+    font-size: 22px;
+
+    background: url("../images/index_50.jpg") no-repeat;
+
+    background-size: 100% 100%;
+
+    color: #fff;
+
+    height: 355px;
+
+    overflow: hidden;
+
+    padding-top: 39px;
+}
+.schooltxt1{
+
+    font-size: 36px;
+
+    margin-top: 26px;
+}
+.schooltxt2{
+
+    font-size: 14px;
+
+    margin-top: 22px;
+
+    width: 60%;
+
+    margin: 20px auto;
+}
+.schoolbox{
+
+    /* display: block; */
+
+    overflow: hidden;
+}
+.schoolbox a{
+
+    display: block;
+
+    float: left;
+
+    width: 23.2%;
+
+    box-shadow: 1px 1px 4px 2px #eee;
+
+    margin: 10px;
+
+    text-decoration: none;
+}
+.schoolboximg{
+
+}
+.schoolboximg img{
+
+    width: 100%;
+
+    height: 176px;
+}
+.schoolboxtxt1{
+
+    font-size: 22px;
+
+    padding: 8px;
+
+    color: #000;
+}
+.schoolboxtxt2{
+
+    padding: 0px 8px 11px;
+
+    color: #000;
+}
+.schoolmore {
+
+    text-align: center;
+
+    margin: 20px;
+}
+.schoolmore a{
+
+}
+.guandian {
+
+    background: #eee;
+}
+.guandiantit{
+
+    text-align: center;
+
+    margin: 20px 0;
+
+    font-size: 27px;
+}
+.guandianbox{
+
+    padding: 20px;
+
+    overflow: hidden;
+}
+.guandianbox .guandianboxitem{
+
+    display: block;
+
+    float: left;
+
+    background: #fff;
+
+    text-decoration: none;
+
+    width: 19%;
+
+    position: relative;
+
+    margin: 0.5%;
+}
+.covely{
+
+    position: absolute;
+
+    top: 0;
+
+    background: #66C5FF;
+
+    height: 266px;
+
+    display: none;
+}
+.guandianboxitem:hover .covely{
+    display: block;
+}
+.time{
+
+    background: #4277F7;
+
+    width: 61px;
+
+    color: #fff;
+
+    padding-left: 10px;
+
+    padding-bottom: 10px;
+
+    margin-left: 20px;
+}
+.day{
+
+    font-size: 18px;
+}
+.year{
+
+}
+.des{
+
+    width: 90%;
+
+    margin: 10px auto;
+
+    font-size: 12px;
+
+    color: #fff;
+
+    height: 93px;
+}
+.des p{
+
+}
+.gdtit1{
+
+    font-size: 14px;
+
+    color: #fff;
+
+    width: 90%;
+
+    margin: 0 auto;
+
+    overflow: hidden;
+
+    text-overflow:ellipsis;
+
+    height: 20px;
+}
+.gdtit2{
+
+    font-size: 12px;
+
+    color: #fff;
+
+    width: 90%;
+
+    margin: 0 auto;
+
+    height: 17px;
+
+    overflow: hidden;
+
+    text-overflow:ellipsis;
+}
+.gddetail{
+
+    display: block;
+
+    width: 100px;
+
+    background: #fff;
+
+    text-align: center;
+
+    font-size: 13px;
+
+    color: #66C5FF;
+
+    border-radius: 4px;
+
+    margin: 10px auto;
+
+    padding: 3px 0;
+}
+.guandianboximg{
+
+}
+.guandianboximg img{
+
+    width: 100%;
+
+    height: 203px;
+}
+.guandiantxt1{
+
+    color: #000;
+
+    margin: 6px;
+}
+.guandiantxt2{
+
+    color: #666;
+
+    font-size: 14px;
+
+    margin: 7px;
+}
+.contact{
+
+}
+.contactTit{
+
+    text-align: center;
+
+    font-size: 30px;
+
+    color: #96B8BF;
+
+    margin: 20px 0 0;
+}
+.contactTit2{
+
+    text-align: center;
+
+    font-size: 28px;
+
+    margin-bottom: 10px;
+}
+.phone{
+
+    text-align: center;
+
+    margin-top: 25px;
+}
+.phone span{
+
+}
+.emailtip{
+
+    text-align: center;
+
+    font-size: 12px;
+
+    color: #666;
+
+    margin: 7px;
+}
+.linktit{
+
+    border-bottom: 1px solid #eee;
+}
+.linktit span{
+
+    background: #66C3F8;
+
+    color: #fff;
+
+    padding: 4px 10px;
+
+    display: inline-block;
+}
+.alink{
+
+    margin: 10px;
+}
+.alink a {
+
+}
+.alink a img{
+
+}
+.footerlink{
+
+    overflow: hidden;
+
+    background: #44474E;
+
+    padding: 50px 0;
+}
+.footlinkbox{
+
+    overflow: hidden;
+
+    float: left;
+
+    width: 33%;
+
+    color: #fff;
+}
+.footlinktit{
+
+    margin-bottom: 13px;
+}
+.footlinktit span{
+
+    font-size: 24px;
+
+    margin: 20px 0;
+}
+.footlinka{
+
+}
+.footlinka a{
+
+    color: #fff;
+
+    text-decoration: none;
+
+    display: block;
+
+    width: 50%;
+
+    float: left;
+
+    line-height: 33px;
+}
+.footwx{
+
+    float: left;
+
+    padding-left: 6%;
+
+    border-left: 1px solid #ddd;
+}
+.footwxbox{
+
+    float: left;
+
+    text-align: center;
+
+    font-size: 14px;
+
+    margin: 10px;
+
+    color: #fff;
+}
+.footwxbox img{
+
+}
+.copyright{
+
+    background: #000000;
+
+    border-bottom: 10px solid #eee;
+
+    height: 50px;
+
+    color: #fff;
+
+    line-height: 50px;
+}
